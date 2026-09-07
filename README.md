@@ -1,7 +1,39 @@
-#  predicting maximum daily energy
+# Predicting Maximum Daily Energy Usage
 
-This repository contains a Jupyter notebook (FinalMLModel.ipynb) that implements a model for predicting maximum daily energy usage. To run the model, open `FinalMLModel.ipynb` in your Jupyter Notebook environment and execute all cells from the first cell to the last cell. Ensure that you have the `weather.csv` and `price_and_demand.csv` files in your working directory (please download them from this repository).
+A machine learning project that explores historical weather, electricity price and demand data to predict maximum daily energy usage.
 
-Upon running the last cell, the notebook will display the results of all models along with their corresponding accuracy.
+## Project Overview
 
-After experimenting with different models, the KNN (K-Nearest Neighbors) model yielded the best results with avg_acacc_scorec_score = 0.7480392156862745.
+This project uses Python and Jupyter Notebook to prepare data, train and compare machine learning models, and evaluate their predictive performance.
+
+## Dataset
+
+The project uses two datasets:
+
+* `weather.csv`
+* `price_and_demand.csv`
+
+Both files are available in this repository.
+
+## Model Development
+
+The notebook includes data preparation, model training and evaluation. Several models were compared, with **K-Nearest Neighbors (KNN)** achieving the best reported result.
+
+**Best reported score:** 0.7480
+
+## How to Run
+
+1. Download the repository.
+2. Open `FinalMLModel.ipynb` in Jupyter Notebook.
+3. Ensure `weather.csv` and `price_and_demand.csv` are in the working directory.
+4. Run the notebook cells in order.
+
+The final cells display the model comparison and evaluation results.
+
+## Technologies
+
+Python · Jupyter Notebook · Pandas · Scikit-learn · Machine Learning
+
+## Project Background
+
+This project demonstrates practical experience in data preparation, machine learning model development and performance evaluation.
